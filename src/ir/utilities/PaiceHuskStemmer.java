@@ -217,7 +217,7 @@ public class PaiceHuskStemmer {
      * For testing, print the stemmed version of a word
      */
     public static void main(String[] args) throws IOException {  
-    	String word = "frustration";
+    	String word = "testing";
     	String stem = stemPaiceHusk(word);
     	System.out.println(stem);
     }
